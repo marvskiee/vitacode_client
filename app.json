@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "vita-code",
+    "name": "Vita Store",
     "slug": "vita-code",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "vitacode.marvs.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76feaf04-472e-4feb-9d56-b3f4d65a59fa"
+      }
     }
   }
 }
